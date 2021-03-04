@@ -31,7 +31,7 @@ public class JavaSpringTemplateApplication {
 		carro.setValor(10000.00);
 		
 		
-		System.out.println(carro.getCor());
+		System.out.println("A cor do carro é: "+carro.getCor()+ "\n" + "O Ano é: " + carro.getAno() + "\n" + "O valor é: " + carro.getValor());
 	}
 
 }
